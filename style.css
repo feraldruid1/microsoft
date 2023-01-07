@@ -1,37 +1,42 @@
 * {
   margin: 0px;
   padding: 0px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
 body {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-}
-.div1,
-.div2,
-.div3,
-.div4 {
-  width: 100px;
-  height: 100px;
 }
 .div1 {
   background-color: #f35325;
+  width: 100px;
+  height: 100px;
 }
 .div2 {
   background-color: #81bc06;
+  width: 100px;
+  height: 100px;
 }
 .div3 {
   background-color: #05a6f0;
+  width: 100px;
+  height: 100px;
 }
 .div4 {
   background-color: #ffba08;
+  width: 100px;
+  height: 100px;
 }
 #cont {
+  display: flex;
   width: 215px;
   height: 215px;
   flex-wrap: wrap;
-  gap: 5px;
+  column-gap: 5px;
+  row-gap: 5px;
+  justify-content: center;
   background-color: white;
+  align-content: center;
 }
