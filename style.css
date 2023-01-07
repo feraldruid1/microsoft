@@ -1,12 +1,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 body {
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 .div1,
@@ -29,13 +29,9 @@ body {
   background-color: #ffba08;
 }
 #cont {
-  display: flex;
   width: 215px;
   height: 215px;
   flex-wrap: wrap;
-  column-gap: 5px;
-  row-gap: 5px;
-  justify-content: center;
+  gap: 5px;
   background-color: white;
-  align-content: center;
 }
