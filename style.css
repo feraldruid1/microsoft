@@ -40,8 +40,8 @@ body {
 }
 #cont {
     display: flex;
-    width: 210px;
-    height: 210px;
+    width: 215px;
+    height: 215px;
     flex-wrap: wrap;
     column-gap: 5px;
     row-gap: 5px;
